@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="Logo Non- Background.png">
+                    <h2>Ammu<span class="danger">Prog
+                    </span></h2>
+                </div>
+
+               
+                <div class="close" id="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" >
+                    <i class="fa-solid fa-bars"></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-receipt"></i>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <i  class="fa-solid fa-chart-line"></i>
+                    <h3>Analytics</h3></a>
+                    
+                    <a href="#">
+                        <i  class="fa-solid fa-envelope"></i>
+                        <h3>Tickets</h3>
+                        <span class="message-count">27</span>
+                    
+                    </a>
+                        <a href="#">
+                            <i class="fa-regular fa-file-lines"></i>
+                            <h3>Sale List</h3></a>
+
+                            
+                            <a href="#">
+                                <i class="fa-solid fa-circle-exclamation fa-shake"></i>
+                                <h3>Reports</h3></a>
+                                <a href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <h3>Settings</h3></a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <h3>New Login</h3></a>
+                                        <a href="#">
+                                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                            <h3>Logout</h3></a>
+            </div>
+        </aside>
+
+         <!-- End Of Sidebar Section-->
+     
+
+
+
+        <!-- Main content -->
+
+       <main>
+        <h1>Analytics</h1>
+        <!-- Analytics -->
+        <div class="analyse">
+            <div class="sales">
+                <div class="status">
+                    <div class="info">
+                        <h3>Total Sales</h3>
+                        <h1>$65,024</h1>
+                    </div>
+
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>+81%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visits">
+                <div class="status">
+                    <div class="info">
+                        <h3>Site Visit</h3>
+                        <h1>24,981</h1>
+                    </div>
+
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>48%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="searches">
+                <div class="status">
+                    <div class="info">
+                        <h3>Searches</h3>
+                        <h1>14,147</h1>
+                    </div>
+
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>+21%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Analyses-->
+
+        <!--New Users Section-->
+
+        <div class="new-users">
+            <h2>New Users</h2>
+            <div class="user-list">
+                <div class="user">
+                    <img src="kalal-2_.jpg">
+                    <h2> Deepak Kalal</h2>
+                    <p>54 Min Ago</p>
+                </div>
+
+                <div class="user">
+                    <img src="thara bhai.jpg">
+                    <h2> Thara Bhai Chuchundar</h2>
+                    <p>3 Hours Ago</p>
+                </div>
+
+                <div class="user">
+                    <img src="puneet.jpeg">
+                    <h2> Puneet Superstar</h2>
+                    <p>1 Min Ago</p>
+                </div>
+
+                <div class="user">
+                    <img src="systuum.jpg">
+                    <h2> Systuum</h2>
+                    <p>Just Now</p>
+                </div>
+
+                <div class="user">
+                    <img src="plus new user.jpg">
+                    <h2> More</h2>
+                    <p>New Users</p>
+                </div>
+            </div>
+        </div>
+        <!--End of New Users Section-->
+
+
+        <!--Recent Orders Table-->
+        <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Course Number</th>
+                        <th>Payment</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <a href="#">Show All</a>
+        </div>
+
+        <!--End Of Recent Orders-->
+
+    </main>
+    <!--End Of Main Content-->
+
+    <!-- Right Section-->
+
+    <div class="right-section">
+        <div class="nav">
+            <button id="menu-btn">
+                <i class="fa-solid fa-list"></i>
+            </button>
+            <div class="dark-mode">
+                <i class="fa-regular fa-sun active"></i>
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Hey, <b>Ammu</b></p>
+                    <small
+                    class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="Aman Personal Logo.jpg">
+                </div>
+            </div>
+
+        </div>
+        <!--End Of Navbar-->
+        <div class="user-profile">
+            <div class="logo">
+                <img src="Logo Non- Background.png">
+                <h2>AmmuProg</h2>
+                <p>Front-End Web Developer</p>
+            </div>
+        </div>
+
+        <div class="reminders">
+            <div class="header">
+                <h2>Reminders</h2>
+                <i class="fa-regular fa-bell fa-shake"></i>
+            </div>
+
+            <div class="notification">
+                <div class="icon">
+                    <i class="fa-solid fa-volume-high"></i>
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Workshop</h3>
+                        <small class="text_muted">
+                            08:00 AM - 12:00 PM
+                        </small>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+
+
+            <div class="notification deactive">
+                <div class="icon">
+                    <i class="fa-solid fa-pen"></i>
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Workshop</h3>
+                        <small class="text_muted">
+                            08:00 AM - 12:00 PM
+                        </small>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+
+
+            <div class="notification add-reminder">
+                <div>
+                    <i class="fa-solid fa-plus fa-fade"></i>
+                    <h3>Add Remainder</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
